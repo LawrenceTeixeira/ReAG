@@ -21,7 +21,7 @@ ReAG (Retrieval Augmented Generation) is designed to analyze PDF documents and a
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ReAG.git
+git clone https://github.com/LawrenceTeixeira/ReAG.git
 cd ReAG
 ```
 
@@ -112,3 +112,11 @@ This project uses the following libraries:
 - LangChain for the RAG implementation
 - OpenAI for language models
 - PyMuPDF and PyPDF for PDF processing
+
+## Author
+- LinkedIn: [Lawrence Teixeira](https://www.linkedin.com/in/lawrenceteixeira/)
+- Blog: [Lawrence's Blog](https://lawrence.eti.br) - Siga meu blog para mais projetos e atualizaçõies.
+
+## Contato
+
+Para mais informações, entre em contato pelo link:[Contato](https://lawrence.eti.br/contact/)
