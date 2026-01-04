@@ -13,7 +13,7 @@ from typing import List
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_community.document_loaders import PyMuPDFLoader
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 # Load environment variables from a .env file.
 from dotenv import load_dotenv
@@ -28,14 +28,14 @@ load_dotenv()
 
 # Initialize the general language model for question-answering.
 llm = ChatOpenAI(
-    model="gpt-4o-mini",
+    model="gpt-4o",
     temperature=0,
 )
 
 # Initialize a second language model specifically for assessing document relevancy.
 llm_relevancy = ChatOpenAI(
-    model="o3-mini",
-    reasoning_effort="medium",
+    model="gpt-4o",
+    temperature=0,
     max_tokens=3000,
 )
 
